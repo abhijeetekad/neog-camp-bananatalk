@@ -5,47 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana talk</title>
+    <link href="styles.css" rel="stylesheet"/>
     <style>
         textarea{
-            width: 90%;
+            width: 50%;
             display: block;
             height: 10vh;
             margin: 1rem;
             padding: 1rem;
+            margin-left: 3%;
         }
         h1{
             margin-left: 40%;
 
         }
         #output {
-            width: 90%;
+            width:50%;
             display: block;
             height: 10vh;
             margin: 1rem;
             padding: 1rem;
             border: 1px solid black;
+            background-color: white;
+            margin-left: 3%;
         }
         body.bodycss{
-            background-color: #F5E050;
+            background-image: url('https://images.unsplash.com/photo-1555786750-7c3c2b9a6b0e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fG1pbmlvbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+            background-repeat: no-repeat;
+            background-size: 1535px 822px;
+            padding-top: 10%;
         }
+
+        
         .minion{
             height: 200px;
             margin-left: 37%;
         }
+        #btn-translate{
+            margin-left: 20%;
+            font-size: 20px;
+        }
+        .sentencealign{
+            margin-left: 17%;
+            color: #F5E050;
+        }
+        .bananaplace{
+            margin-left: 17%;
+            padding-top: 5rem;
+        }
+        .intro{
+            height: 80px;
+            width: auto;
+            margin-top: -10.5%;
+            background-color: #F5E050;
+            border-radius: 0.4rem;
+        }
+        .name{
+            font-size: large;
+            font-weight: bold;
+            padding: 1rem 1rem ;
+        }
+        .minions{
+            font-weight: bold;
+            font-size: xx-large;
+            padding-left: 40%;
+            margin-block: -3%;
+        }
+        .name-align1{
+            font-weight: bold;
+            font-size: large;
+            padding: 1rem;
+        }
+        .name-align2{
+            font-weight: bold;
+            font-size: large;
+            padding-left: 1rem;
+        }
     </style>
-
+    
 </head>
+<body >
+    <nav class="intro">
+        <div class='name-align1'>Developer : Abhijeet Ekad </div>
+        <div class="name-align2">Portfolio Website <span  style = "display: block inline;"><button>Click here</button></span></div>
+        <div class="minions">Talk to Minions</div>
+    </nav>
+</body>
 
 <body class="bodycss">
-    <h1> Banana Talk </h1>
-    <img class="minion" src="https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bWluaW9ufGVufDB8fDB8&auto=format&fit=crop&w=500&q=60">
+    
+    <h1 class="bananaplace" style="color: #F5E050;"> Banana Talk </h1>
+    
     <textarea id="txt-input"
         placeholder="put your sentence in English here and we will convert it to banana"></textarea>
     <button id="btn-translate">Translate</button>
 
-    <div style="font-size: larger;"> Output will come here 👇</div>
+    <div class="sentencealign" style="font-size: x-large;"> Output will come here 👇</div>
     <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
+
+
+    
 </body>
 
 </html>

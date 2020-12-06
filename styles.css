@@ -1,0 +1,41 @@
+
+.footer {
+    background-color:  #F5E050;
+    padding: 1rem 1rem;
+    text-align: center;
+    color:black;
+    margin-top: 230px;
+    border-radius: 1rem;
+    padding-top: 3%;
+    
+  }
+  
+  .footer .link {
+    color: black;
+  }
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: 101%;
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
+  .upper {
+    margin-top: 100px;
+  }
+  .list-non-bullet {
+    list-style: none;
+  }
+  
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    size: 100px;
+  }
+  .link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  
